@@ -10,3 +10,6 @@ if(iceCream === 'chocolate') {
 } else {
   alert('Awwww, but chocolate is my favorite...');    
 }
+var x = 5;
+var y = 6;
+var z = x + y;
