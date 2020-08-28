@@ -6,15 +6,15 @@
 
 <form action="display.php" method="POST">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" value="John"><br><br>
+  <input type="text" id="fname" value="John" required><br><br>
   <label for="fno">Phone Number</label><br>
-  <input type="text" id="fno" value="123"><br><br>
-  <input type="radio" id="male" name="gender" value="male">
+  <input type="text" id="fno" value="123" required><br><br>
+  <input type="radio" id="male" name="gender" value="male" required>
   <label for="Bachelors">Bachelors</label><br>
-  <input type="radio" id="Bachelors" name="Choice" value="Bachelors">
+  <input type="radio" id="Bachelors" name="Choice" value="Bachelors" required>
   <label for="Masters">Masters</label><br>
 
-  Description<input type="text" id="desc" value=""><br><br>
+  Description<input type="text" name="desc" id="desc" value=""><br><br>
   <input type="submit" value="Submit">
 </form> 
 
